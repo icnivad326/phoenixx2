@@ -1637,6 +1637,44 @@
 			transition: none !important;
 		}
 
+
+		/* Slideshow */
+		#img-grp-wrap {
+	    position: relative;
+	    width: 353px;
+	    height: 326px;
+	    margin: 0px auto;
+	}
+
+	.img-wrap {
+	    position: relative;
+	    border: 1px solid #CCC;
+	    width:353px;
+	    height: 326px;
+	}
+
+	.img-wrap img {
+	    position: absolute;
+	    top: 0;
+	    left: -12px;
+	    -moz-box-shadow: 1px 1px 4px #CCC;
+	    padding: 0px;
+	}
+
+	.next, .prev {
+	    position: absolute;
+	    cursor: pointer;
+	    top: 70px;
+	}
+
+	.next {
+	    right: -90px;
+	}
+
+	.prev {
+	    left: -100px;
+	}
+
 /* Type */
 
 	body, input, select, textarea {
