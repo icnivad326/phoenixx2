@@ -17,11 +17,11 @@ $('.prev').click(function() {
 
 $('.img-wrap02 img:gt(0)').hide();
 
-$('.next').click(function() {
+$('.next02').click(function() {
     $('.img-wrap02 img:first-child').fadeOut().next().fadeIn().end().appendTo('.img-wrap02');
 });
 
-$('.prev').click(function() {
+$('.prev02').click(function() {
     $('.img-wrap02 img:first-child').fadeOut();
     $('.img-wrap02 img:last-child').prependTo('.img-wrap02').fadeOut();
     $('.img-wrap02 img:first-child').fadeIn();
