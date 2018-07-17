@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Reset */
+body{ background: #ddd; margin: 0; padding: 0; }
+#container{ width: 950px; margin: 0 auto; background: #fff; padding: 200px 25px; }
+table1{ border-collapse: collapse; width: 100% }
+td{ border: 0px solid #eee; padding: 0px; }
+
+@media screen and (max-width: 480px){
+
+  #container{ width: auto; margin: 0; padding: 25px 0; }
+  table1 { display: block; }
+  td{ display: block; padding: 0px 0; border: none; }
+  td img{ display: block; margin: 0; width: 100%; max-width: none; }
+
+}
