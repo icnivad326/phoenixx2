@@ -27,7 +27,7 @@ ul#sameheight li {
   background:#fff;
   padding:5px 10px;
   margin:0px 0px 2px; 
-  position:relative; 
+  position:relative;
 }
 
 ul#sameheight li .child {
@@ -40,5 +40,3 @@ ul#sameheight li .child {
   top:0px;
   display:none;
 }
-
-
