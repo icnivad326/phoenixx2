@@ -108,6 +108,14 @@
    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
+/* Positioning for Video Player image */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
     from {opacity: 0;}
