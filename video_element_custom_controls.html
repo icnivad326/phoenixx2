@@ -52,6 +52,8 @@ function intializePlayer (){
 }
 window.onload = intializePlayer;
 
+var video = document.getElementById('video'); video.addEventListener('click',function(){ video.play(); },false);
+
 function playPause (){
   if(vid.paused){
       vid.play();
