@@ -44,23 +44,53 @@
 							<li><a href="index.html">Home</a></li>
 							<li><a href="PrintedPlastics.html">Printed Plastics Projects</a></li>
 							<li><a href="generic.html">Tempus etiam</a></li>
-							<li><a href="generic.html">Consequat dolor</a></li>
+							<li><a href="DesignerRelevant.html">Designer Toolbox</a></li>
 							<li><a href="elements.html">Elements</a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<header>
-								<h1>The Four Second Rule ...<br />
-								</h1>
-								<p>Four seconds is exactly the amount of time I have to grab your attention. The objective of this site is to create a user friendly, interactive, and responsive portfolio of my recent projects. Please feel free to browse and leave comments. You can contact me by using the envelope icon located in the footer of this landing page.</p>
-							</header>
+				<div id="main">
+					<div class="inner">
+						<h1>The Four Second Rule ...</h1>
+
+						<style>
+						div {
+    			border: 3px solid #4CAF50;
+    			padding: 5px;
+					}
+
+					.img1 {
+    			float: right;
+					}
+
+					.clearfix {
+    			overflow: auto;
+					}
+
+				.img2 {
+    		float: right;
+				}
+			</style>
+
+			<p>In this example, the image is taller than the element containing it, and it is floated, so it overflows outside of its container:</p>
+
+<div>
+<img class="img1" src="images/infinity-water-bottle-box.jpg" alt="Bottle Box" width="270" height="270">
+<p>Four seconds is exactly the amount of time I have to grab your attention. The objective of this site is to create a user friendly, interactive, and responsive portfolio of my recent projects.
+	Please feel free to browse and leave comments. You can contact me by using the envelope icon located in the footer of this landing page.</p></div>
+
+<p style="clear:right">Add a clearfix class with overflow: auto; to the containing element, to fix this problem:</p>
+
+<div class="clearfix">
+<img class="img2" src="images/infinity-water-bottle-box.jpg" alt="Bottle Box" width="270" height="270">
+<p>Four seconds is exactly the amount of time I have to grab your attention. The objective of this site is to create a user friendly, interactive, and responsive portfolio of my recent projects.
+	Please feel free to browse and leave comments. You can contact me by using the envelope icon located in the footer of this landing page.</p></div>
+
 							<section class="tiles">
 								<article class="style1">
 									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
+										<img src="images/pic01.jpg" alt=""/>
 									</span>
 									<a href="boxes.html">
 										<h2>IGH Box Prototyping</h2>
@@ -140,9 +170,9 @@
 										<img src="images/pic08.jpg" alt="" />
 									</span>
 									<a href="generic.html">
-										<h2>Dolor</h2>
+										<h2>Photoshop Techniques and Color Correction</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Examples of Photoshop advanced selections, tonal/color adjustments and the use of developing techniques.</p>
 										</div>
 									</a>
 								</article>
