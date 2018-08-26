@@ -54,16 +54,17 @@
 					<div class="inner">
 						<h1>The Four Second Rule ...</h1>
 
+
 						<style>
-						div {
-    			border: 3px solid #4CAF50;
-    			padding: 5px;
+						.container-floater
+						{
+	    		border: 3px solid #4CAF50;
+	    		padding: 10px;
 					}
 
 					.img1 {
     			float: right;
 					}
-
 					.clearfix {
     			overflow: auto;
 					}
@@ -72,20 +73,22 @@
     		float: right;
 				}
 			</style>
-
-			<p>In this example, the image is taller than the element containing it, and it is floated, so it overflows outside of its container:</p>
+<div class="container-floater">
+			<p>In this example, the image is taller than the element containing it; the elemement is floated, so it overflows outside of its container:</p>
 
 <div>
-<img class="img1" src="images/infinity-water-bottle-box.jpg" alt="Bottle Box" width="270" height="270">
+<img class="img1" src="images/fantasy-woman-01.jpg" alt="Fantasy Woman original" width="270" height="270">
 <p>Four seconds is exactly the amount of time I have to grab your attention. The objective of this site is to create a user friendly, interactive, and responsive portfolio of my recent projects.
 	Please feel free to browse and leave comments. You can contact me by using the envelope icon located in the footer of this landing page.</p></div>
-
-<p style="clear:right">Add a clearfix class with overflow: auto; to the containing element, to fix this problem:</p>
-
+</div>
+<p style="clear:right">Add a clearfix class with overflow: auto; to the containing element to fix this problem:</p>
+<div class="container-floater">
 <div class="clearfix">
-<img class="img2" src="images/infinity-water-bottle-box.jpg" alt="Bottle Box" width="270" height="270">
+<img class="img2" src="images/fantasy-woman-02.jpg" alt="Bottle Box" width="270" height="270">
 <p>Four seconds is exactly the amount of time I have to grab your attention. The objective of this site is to create a user friendly, interactive, and responsive portfolio of my recent projects.
-	Please feel free to browse and leave comments. You can contact me by using the envelope icon located in the footer of this landing page.</p></div>
+	Please feel free to browse and leave comments. You can contact me by using the envelope icon located in the footer of this landing page.</p><br>
+<b><i>*Photoshop Techniques and Color Adjustment examples now available for review. Select the panel category located below this section.</b></i></div>
+</div>
 
 							<section class="tiles">
 								<article class="style1">
@@ -172,7 +175,7 @@
 									<a href="generic.html">
 										<h2>Photoshop Techniques and Color Correction</h2>
 										<div class="content">
-											<p>Examples of Photoshop advanced selections, tonal/color adjustments and the use of developing techniques.</p>
+											<p>PS advanced selections, tonal/color adjustments and use of developing techniques.</p>
 										</div>
 									</a>
 								</article>
