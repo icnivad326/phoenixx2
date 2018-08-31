@@ -6,13 +6,11 @@
 -->
 <html>
 	<head>
-		<title>Photoshop Techniques</title>
+		<title>Generic - Phantom by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/portfolio_gallery.css"/>
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css"/>
-		<link rel="stylesheet" href="assets/css/main.css"/>
+		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -26,7 +24,7 @@
 
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phoenixx</span>
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
 								</a>
 
 							<!-- Nav -->
@@ -39,7 +37,6 @@
 						</div>
 					</header>
 
-
 				<!-- Menu -->
 					<nav id="menu">
 						<h2>Menu</h2>
@@ -51,41 +48,17 @@
 							<li><a href="elements.html">Elements</a></li>
 						</ul>
 					</nav>
+
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h3>Nicholandime Jazz Bride</h3>
-
-					<!-- MAIN (Center website) -->
-					<section>
-
-					<!-- Portfolio Gallery Grid -->
-					<div class="content">
-					  <img src="images/nicholandime-bride.jpg" alt="nicholandime jazz bride" style="width:100%">
-					  <h3>Colors in Motion & Cosmic Lights Effects<sup>1</sup></h3>
-					  <p>This concept came about when updating a custom logo design for a NY Music Promotions Agency &#8220;Nicolandime Muzik&#8221;. This project started out with a tutorial to be used as a reference, &#8220;Show me the light&#8221; from psdbox.com. There were a few issues with the tutorial, and ended up using "trial and error" PS layers to achieve the results in the final composition.</p>
+							<h1>Generic Page</h1>
+							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
+							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
+							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+						</div>
 					</div>
-
-					<!-- END MAIN -->
-				</section>
-				<div class="container">
-					<div class="panel-group" id="accordion1">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a href="#cla6" data-toggle="collapse" data-parent="#accordion1">Resource 1</a>
-								</h4>
-							</div>
-							<div class="collapse panel-collapse" id="cla6">
-											<div class="panel-body"><sup>1</sup>Guerriero, Sebastiano. <i>&#8220;Add Brilliant Light Effects to Your Work with Photoshop&#8221;</i>, webfx.com, 28 April 2010, Web. 28 Apr 2016.</div>
-										</div>
-									</div>
-					</div> <!-- container -->
-
-			</div>
-		</div>
-	</div>
-
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -125,15 +98,15 @@
 							</ul>
 						</div>
 					</footer>
-		</div>
 
-			<!-- Scripts -->
-				<script src="assets/js/jquery.min.js"></script>
-				<script src="assets/js/skel.min.js"></script>
-				<script src="assets/js/util.js"></script>
-				<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-				<script src="assets/js/main.js"></script>
-				<script src="assets/js/bootstrap.js"></script>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
