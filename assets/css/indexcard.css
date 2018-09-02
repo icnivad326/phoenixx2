@@ -99,10 +99,10 @@
 	}
 
 		ul#index_cards li {
+			background:url(../images/card-bg.jpg) repeat;
 			height:600px;
 			width:680px;
 			background-color: #FFF;
-			background-image: url("https://icnivad326.github.io/phoenixx/images/card_bg.jpg");
 			display:block;
 			float:left;
 			border:1px solid #666;
