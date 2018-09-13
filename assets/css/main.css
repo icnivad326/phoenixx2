@@ -116,6 +116,18 @@
     width: 50%;
 }
 
+.figure1 {
+float: right;
+width: 41%;
+text-align: center;
+font-style: italic;
+font-size: smaller;
+text-indent: 0;
+border: thin silver solid;
+margin: 0.5em;
+padding: 0.5em;
+}
+
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
     from {opacity: 0;}
