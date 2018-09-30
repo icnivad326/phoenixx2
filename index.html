@@ -60,12 +60,6 @@
 	    		padding: 10px;
 					}
 
-					.container-floater1
-					{
-				border: 0px solid #fff;
-				padding: 10px;
-				}
-
 					.img1 {
     			float: right;
 					padding-left: 10px;
@@ -78,19 +72,27 @@
     		float: right;
 				padding-left: 10px;
 				}
-				.topleft {
-					position: absolute;
-					padding-top: 10px;
-					padding-left: 20px;
-					font-size: 18px;
-					}
-			</style>
-			<div class="container-floater1">
-			<div class="clearfix">
-			<img class="img2" src="images/gears.jpg" alt="gears image" width="1200px" height="460px">
-			<div class="topleft"><h1>Responsive Portfolio Development 101</h1></div>
 
-			</div>
+				.container {
+    		position: relative;
+    		text-align: center;
+    		color: #585858;
+				}
+
+				/* Top left text */
+				.top-left {
+    	position: absolute;
+    	top: 8px;
+    	left: 16px;
+			}
+
+			</style>
+
+			<div class="container">
+			<img class="img" src="images/gears.jpg" alt="gears image" width="auto" height="auto">
+			<div class="top-left"><h1>Responsive Portfolio Development 101</h1></div>
+
+
 			</div>
 <div class="container-floater">
 			<p>In this example, the image is taller than the element containing it; the element is floated, so it overflows outside of its container.</p>
