@@ -53,12 +53,12 @@
 
 
 
-
 	/* General styling */
 
-	body {
+		body {
 		background:"#";
 		font-family: 'Shadows Into Light', cursive;
+		font-family: 'Pangolin', cursive;
 		font-size:170%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
